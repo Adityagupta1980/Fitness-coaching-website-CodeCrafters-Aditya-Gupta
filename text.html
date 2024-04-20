@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curved Box</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+    .container {
+  width: 300px;
+  height: 125px;
+  background-color: #f0f0f0;;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+  animation: shadow-animation 2s infinite alternate;
+}
+@keyframes shadow-animation {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+}
+.heading {
+  color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+}
+
+.text {
+  font-weight: bold;
+}
+
+.oval-box {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  width: 100px;
+  height: 40px;
+   background-color: rgba(255, 215, 0, 0.5);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oval-box p {
+   color: #b8860b;
+  font-weight: bold;
+}
+
+.container1 {
+    width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+     overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+  animation: shadow-animation 2s infinite alternate;
+  }
+
+  .heading1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+</style>
+<body>
+  <h2> MY SCHEDULE </H2>
+  
+
+<div class="container">
+  <div class="heading">Monday</div>
+  <div class="content">
+    <img src="" alt="image" class="image">
+    <div class="text">
+      <strong>Stretch</strong> <br>
+      At 8:00
+    </div>
+  </div>
+  <div class="oval-box">
+    <p>20 pieces</p>
+  </div>
+</div>
+  <div class="container">
+  <div class="heading">Tuesday</div>
+  <div class="content">
+    <img src="" alt="image" class="image">
+    <div class="text">
+      <strong>Back Stretch</strong> <br>
+      At 8:00
+    </div>
+  </div>
+  <div class="oval-box">
+    <p>20 pieces</p>
+  </div>
+</div>
+  <div class="container">
+  <div class="heading">Wednesday</div>
+  <div class="content">
+    <img src="" alt="image" class="image">
+    <div class="text">
+      <strong>Yoga</strong> <br>
+      At 8:00
+    </div>
+  </div>
+  <div class="oval-box">
+    <p>20 pieces</p>
+  </div>
+</div>
+  <br>
+  <h2> Goals </h2>
+ <div class="container1">
+  <div class="heading1">Running on Track</div>
+  <div class="text">Saturday 8:00 A.M. || 14-APRIL</div>
+  </div>
+   <div class="container1">
+  <div class="heading1">Push-up</div>
+     <div class="text">Sunday 8:00 A.M. || 15-APRIL</div></div>
+  
+</body>
+</html>
